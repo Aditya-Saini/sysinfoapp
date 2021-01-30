@@ -6,7 +6,9 @@ let win;
 
 function createWindow() {
     //create browser window
-    win = new BrowserWindow({width:800, height:800})
+    win = new BrowserWindow({width:800, height:800, webPreferences: {
+        nodeIntegration: true
+    }})
 
     // load index.html
     win.loadURL(url.format({
