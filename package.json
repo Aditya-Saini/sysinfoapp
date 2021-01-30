@@ -1,0 +1,22 @@
+{
+  "name": "sysinfoapp",
+  "version": "1.0.0",
+  "description": "simple system monitor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya-Saini/sysinfoapp.git"
+  },
+  "author": "Aditya Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aditya-Saini/sysinfoapp/issues"
+  },
+  "homepage": "https://github.com/Aditya-Saini/sysinfoapp#readme",
+  "dependencies": {
+    "electron": "^11.2.1"
+  }
+}
